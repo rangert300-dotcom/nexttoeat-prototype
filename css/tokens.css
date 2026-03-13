@@ -1,0 +1,30 @@
+/* ─── NEXT TO EAT — UNIFIED DESIGN TOKENS ─── */
+
+:root {
+  /* Palette */
+  --cream: #f5f0e8;
+  --dark: #1a1a1a;
+  --primary: #24423a;
+  --secondary: #6e9f45;
+  --accent: #c86a2b;
+  --accent-dark: #a55520;
+  --gold: #c8a44e;
+  --panel: #ffffff;
+  --panel-soft: #fcfaf6;
+  --muted: #6c6257;
+  --line: #e6ddd1;
+  --highlight: #f3e4c8;
+  --text: #2f2a24;
+  --bg: #f7f4ed;
+
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Lora', Georgia, serif;
+  --font-label: 'Oswald', 'Arial Narrow', sans-serif;
+  --font-ui: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+  /* Layout */
+  --max-width: 1160px;
+  --radius: 18px;
+  --shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+}
