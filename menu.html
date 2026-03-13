@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu & Meal Solutions | Next To Eat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lora:wght@400;500;600&family=Oswald:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <a href="#main" class="skip">Skip to main content</a>
+
+  <!-- Promo Bar -->
+  <div class="promo">
+    <div class="container">
+      <div class="inner">
+        <div>🍽️ 15 Meals for <strong>$99</strong> <small>— Includes Breakfast, Lunch & Dinner</small> <span>· Add 10 Snacks for <strong>$25</strong></span></div>
+        <button class="promo-close" aria-label="Close promo">×</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Site Header -->
+  <header class="site-header has-promo">
+    <div class="container">
+      <nav class="nav-bar" aria-label="Main navigation">
+        <a href="index.html" class="brand">
+          <div class="logo-mark"></div>
+          <div class="brand-text">
+            <b>Next To Eat</b>
+            <span>Wholistic Culinary Market · New Orleans</span>
+          </div>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html" class="active">Menu</a></li>
+          <li><a href="yam.html">Y.A.M.</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="community.html">Community</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <a class="btn btn-primary" href="https://www.nexttoeat.com/meal-solutions" target="_blank" rel="noopener">Order Meals</a>
+          <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="mobile-nav">
+    <div class="mobile-nav-panel">
+      <button class="mobile-nav-close" aria-label="Close menu">×</button>
+      <ul class="mobile-nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="yam.html">Y.A.M.</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="mobile-nav-cta">
+        <a class="btn btn-primary btn-full" href="https://www.nexttoeat.com/meal-solutions" target="_blank" rel="noopener">Order Meals</a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- Hero Section -->
+    <section class="section-dark">
+      <div class="container">
+        <div class="section-label">Nourishment</div>
+        <h1 class="section-title">Wholistic Meal <span class="title-accent">Solutions</span></h1>
+        <p class="section-content">Carefully crafted meals tailored to your dietary needs and wellness goals. From balanced nutrition to specialized meal plans, we create food that fuels your body.</p>
+      </div>
+    </section>
+
+    <!-- Featured Offer -->
+    <section class="section-light">
+      <div class="container">
+        <div class="card panel" style="margin-bottom: 40px;">
+          <h2 style="font-family: var(--font-display); font-size: 1.8rem; color: var(--primary); margin-bottom: 0.5rem;">15 Meals for $99</h2>
+          <p style="color: var(--muted); margin-bottom: 1.5rem;">Get started with our most popular meal plan. Flexible, affordable, and nutritionally balanced.</p>
+
+          <div class="three-col" style="margin-bottom: 2rem;">
+            <div class="step">
+              <div class="step-num">1</div>
+              <h3 style="color: var(--primary); font-size: 1.05rem; margin-bottom: 0.5rem;">Choose Your Plan</h3>
+              <p style="color: var(--muted); font-size: 0.95rem; margin: 0;">Select meals by category or duration that fits your schedule.</p>
+            </div>
+            <div class="step">
+              <div class="step-num">2</div>
+              <h3 style="color: var(--primary); font-size: 1.05rem; margin-bottom: 0.5rem;">Share Dietary Needs</h3>
+              <p style="color: var(--muted); font-size: 0.95rem; margin: 0;">Tell us about allergies, preferences, and wellness goals.</p>
+            </div>
+            <div class="step">
+              <div class="step-num">3</div>
+              <h3 style="color: var(--primary); font-size: 1.05rem; margin-bottom: 0.5rem;">Pick Up or Delivery</h3>
+              <p style="color: var(--muted); font-size: 0.95rem; margin: 0;">Choose convenient pickup or home delivery for your area.</p>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+            <a href="https://nexttoeat.com/meal-solutions" class="btn btn-primary">Start Your Order</a>
+            <a href="contact.html" class="btn btn-ghost">Ask a Question</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Weekly Menu -->
+    <section class="section-white">
+      <div class="container">
+        <div class="section-label">This Week</div>
+        <h2 class="section-title">Weekly <span class="title-accent">Menu</span></h2>
+        <div class="section-rule"></div>
+
+        <div class="three-col">
+          <div class="card panel">
+            <h3 style="color: var(--primary); font-family: var(--font-display); font-size: 1.3rem; margin-bottom: 1rem;">Breakfast</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; color: var(--muted);">
+              <li style="padding-bottom: 12px; border-bottom: 1px solid var(--line);">
+                <strong style="color: var(--primary);">Sweet Potato Turkey Hash</strong>
+                <p style="margin: 4px 0 0; font-size: 0.9rem;">Roasted sweet potatoes with lean turkey, herbs & spices</p>
+              </li>
+              <li style="padding-bottom: 12px; border-bottom: 1px solid var(--line);">
+                <strong style="color: var(--primary);">Seasonal Fruit</strong>
+                <p style="margin: 4px 0 0; font-size: 0.9rem;">Fresh local and organic seasonal selections</p>
+              </li>
+              <li>
+                <strong style="color: var(--primary);">Herbal Tea</strong>
+                <p style="margin: 4px 0 0; font-size: 0.9rem;">Calming blend to start your morning</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card panel">
+            <h3 style="color: var(--primary); font-family: var(--font-display); font-size: 1.3rem; margin-bottom: 1rem;">Lunch</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; color: var(--muted);">
+              <li style="padding-bottom: 12px; border-bottom: 1px solid var(--line);">
+                <strong style="color: var(--primary);">Herb Chicken Salad</strong>
+                <p style="margin: 4px 0 0; font-size: 0.9rem;">Grilled chicken breast with fresh herbs & lime</p>
+              </li>
+              <li style="padding-bottom: 12px; border-bottom: 1px solid var(--line);">
+                <strong style="color: var(--primary);">Mixed Greens</strong>
+                <p style="margin: 4px 0 0; font-size: 0.9rem;">Local organic greens & seasonal vegetables</p>
+              </li>
+              <li>
+                <strong style="color: var(--primary);">House Dressing</strong>
+                <p style="margin: 4px 0 0; font-size: 0.9rem;">Signature blend made fresh daily</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card panel">
+            <h3 style="color: var(--primary); font-family: var(--font-display); font-size: 1.3rem; margin-bottom: 1rem;">Dinner</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 12px; color: var(--muted);">
+              <li style="padding-bottom: 12px; border-bottom: 1px solid var(--line);">
+                <strong style="color: var(--primary);">Grilled Salmon</strong>
+                <p style="margin: 4px 0 0; font-size: 0.9rem;">Wild-caught salmon with omega-3 benefits</p>
+              </li>
+              <li style="padding-bottom: 12px; border-bottom: 1px solid var(--line);">
+                <strong style="color: var(--primary);">Mixed Vegetables</strong>
+                <p style="margin: 4px 0 0; font-size: 0.9rem;">Seasonal roasted vegetables with light herbs</p>
+              </li>
+              <li>
+                <strong style="color: var(--primary);">Brown Rice</strong>
+                <p style="margin: 4px 0 0; font-size: 0.9rem;">Nutty whole grain for sustained energy</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dietary Accommodations -->
+    <section class="section-light">
+      <div class="container">
+        <div class="section-label">Your Needs</div>
+        <h2 class="section-title">Dietary <span class="title-accent">Accommodations</span></h2>
+        <div class="section-rule"></div>
+
+        <div class="card panel" style="max-width: 600px;">
+          <ul class="check-list">
+            <li>
+              <div class="check-icon"></div>
+              <div>
+                <strong>Gluten-Free Options</strong>
+                <p style="margin: 4px 0 0; font-size: 0.9rem; color: var(--muted);">All meals are prepared in our gluten-free area with dedicated equipment.</p>
+              </div>
+            </li>
+            <li>
+              <div class="check-icon"></div>
+              <div>
+                <strong>Diabetic-Friendly Meals</strong>
+                <p style="margin: 4px 0 0; font-size: 0.9rem; color: var(--muted);">Balanced macros with controlled carbohydrates and refined sugars.</p>
+              </div>
+            </li>
+            <li>
+              <div class="check-icon"></div>
+              <div>
+                <strong>Heart-Healthy Preparations</strong>
+                <p style="margin: 4px 0 0; font-size: 0.9rem; color: var(--muted);">Low sodium, healthy fats, and nutrient-dense ingredients.</p>
+              </div>
+            </li>
+            <li>
+              <div class="check-icon"></div>
+              <div>
+                <strong>Anti-Inflammatory Focus</strong>
+                <p style="margin: 4px 0 0; font-size: 0.9rem; color: var(--muted);">Curated meals with turmeric, omega-3s, and antioxidant-rich foods.</p>
+              </div>
+            </li>
+            <li>
+              <div class="check-icon"></div>
+              <div>
+                <strong>Organic-First Sourcing</strong>
+                <p style="margin: 4px 0 0; font-size: 0.9rem; color: var(--muted);">Prioritizing certified organic ingredients whenever possible.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Market Info -->
+    <section class="section-white">
+      <div class="container">
+        <div class="two-col">
+          <div>
+            <h2 style="font-family: var(--font-display); font-size: 1.8rem; color: var(--primary); margin-bottom: 1.5rem;">Wholistic Culinary Market</h2>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem; color: var(--muted); font-family: var(--font-body);">
+              <div>
+                <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 0.5rem;">Salad Bar</h3>
+                <p>Create your own perfectly balanced salads with our extensive selection of fresh, locally-sourced greens and toppings.</p>
+              </div>
+              <div>
+                <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 0.5rem;">Seafood Bar</h3>
+                <p>Sustainable, wild-caught fish and shellfish prepared fresh daily. Ask about our daily catches and seasonal specials.</p>
+              </div>
+              <div>
+                <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 0.5rem;">Soup Garden</h3>
+                <p>Warming, nourishing soups made from scratch daily. Ranging from light broths to hearty, meal-sized options.</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div style="margin-bottom: 1.5rem;">
+              <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 0.5rem;">Location</h3>
+              <p style="color: var(--muted); margin-bottom: 0.25rem;">2132 Simon Bolivar Ave</p>
+              <p style="color: var(--muted); margin-bottom: 1.5rem;">Central City, New Orleans</p>
+            </div>
+            <div style="margin-bottom: 1.5rem;">
+              <h3 style="color: var(--primary); font-weight: 700; margin-bottom: 0.5rem;">Hours</h3>
+              <p style="color: var(--muted); margin-bottom: 0;">Monday – Friday: 7am – 8pm</p>
+              <p style="color: var(--muted); margin-bottom: 0;">Saturday: 9am – 6pm</p>
+              <p style="color: var(--muted);">Sunday: 10am – 5pm</p>
+            </div>
+            <div class="img-placeholder">Market Interior Photo</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ordering FAQ -->
+    <section class="section-light">
+      <div class="container">
+        <div class="section-label">Help</div>
+        <h2 class="section-title">Ordering <span class="title-accent">FAQ</span></h2>
+        <div class="section-rule"></div>
+
+        <div style="max-width: 720px;">
+          <details class="faq-item">
+            <summary>How far in advance do I need to order meals?</summary>
+            <p>We recommend ordering at least 48 hours in advance for best availability. Rush orders are accepted based on stock availability, with a $10 expedite fee.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Can I modify meals to fit my dietary restrictions?</summary>
+            <p>Absolutely! We customize all meals to your dietary needs. Let us know about allergies, intolerances, and preferences when ordering, and we'll adapt recipes accordingly.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>What's your delivery area and what are the costs?</summary>
+            <p>We deliver to Central City and surrounding neighborhoods within 3 miles. Delivery is free for orders over $50, otherwise $7.95. Pickup at our market is always free.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>How long do meals stay fresh after delivery or pickup?</summary>
+            <p>All meals are prepared fresh the day of delivery or pickup. Store in refrigerator and consume within 3-4 days. Freezing instructions vary by dish—ask when ordering.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 style="font-family: var(--font-ui); font-size: 1.1rem; color: var(--primary); margin-bottom: 0.5rem;">Next To Eat</h3>
+          <p style="color: var(--muted); margin-bottom: 1.5rem; max-width: 320px;">Wholistic Culinary Market dedicated to nourishing our community through accessible, health-focused meal solutions.</p>
+          <p class="footer-fine">&copy; <span id="footer-year"></span> Next To Eat. All rights reserved.</p>
+        </div>
+        <div>
+          <h4 style="font-family: var(--font-ui); font-weight: 700; color: var(--primary); margin-bottom: 1rem; font-size: 0.95rem;">Pages</h4>
+          <div class="footer-links">
+            <a href="index.html" style="color: var(--muted); font-weight: 600; font-size: 0.9rem;">Home</a>
+            <a href="menu.html" style="color: var(--muted); font-weight: 600; font-size: 0.9rem;">Menu</a>
+            <a href="yam.html" style="color: var(--muted); font-weight: 600; font-size: 0.9rem;">Y.A.M.</a>
+            <a href="about.html" style="color: var(--muted); font-weight: 600; font-size: 0.9rem;">About</a>
+            <a href="community.html" style="color: var(--muted); font-weight: 600; font-size: 0.9rem;">Community</a>
+            <a href="contact.html" style="color: var(--muted); font-weight: 600; font-size: 0.9rem;">Contact</a>
+          </div>
+          <h4 style="font-family: var(--font-ui); font-weight: 700; color: var(--primary); margin-top: 1.5rem; margin-bottom: 1rem; font-size: 0.95rem;">Follow</h4>
+          <div class="footer-social">
+            <a href="https://instagram.com/nexttoeat">@nexttoeat</a>
+            <a href="https://facebook.com/nexttoeat">Facebook</a>
+            <a href="https://tiktok.com/@nexttoeat">TikTok</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+</body>
+</html>

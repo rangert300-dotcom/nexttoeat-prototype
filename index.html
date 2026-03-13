@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Next To Eat - Wholistic Culinary Market in New Orleans. Real food, real nourishment, real New Orleans. Order healthy meal solutions with organic-first ingredients and community-centered values.">
+  <title>Next To Eat — Wholistic Culinary Market & Meal Solutions</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lora:wght@400;600;700&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/banner.css">
+</head>
+<body>
+  <a href="#main" class="skip">Skip to main content</a>
+
+  <!-- LAYER 1: Newspaper Banner Overlay -->
+  <div id="yam-overlay" class="banner-overlay" role="dialog" aria-modal="true" aria-label="Y.A.M. Launch Announcement">
+    <div class="banner-backdrop"></div>
+    <div class="banner-newspaper">
+      <button class="banner-dismiss" aria-label="Close announcement">✕</button>
+      <header class="banner-masthead">
+        <div class="banner-meta-row">
+          <span>Central City, New Orleans</span>
+          <span>Vol. 1 · No. 1</span>
+        </div>
+        <div class="banner-logo-area">
+          <img src="./assets/123_1.jpeg" alt="Y.A.M. — Young Adult Market" class="banner-yam-logo" id="yam-logo-img">
+          <div class="banner-yam-logo-fallback" id="yam-logo-fallback">Y.A.M.</div>
+        </div>
+        <div class="banner-title">
+          <span class="banner-fresh">fresh</span> <span class="banner-yam-text">Y.A.M.</span>
+        </div>
+        <div class="banner-subtitle">Young Adult Market</div>
+        <div class="banner-date-banner" id="date-banner">
+          <div class="banner-coming-soon" id="coming-soon">COMING SPRING 2026</div>
+          <div class="banner-now-open" id="now-open">NOW OPEN</div>
+        </div>
+        <hr class="banner-rule-double">
+      </header>
+      <section class="banner-headline">
+        <h1>Y.A.M. is Next To Eat.</h1>
+        <p class="banner-subhead">Next To Eat's Young Adult Market Opens on Simon Bolivar</p>
+      </section>
+      <!-- Persistence controls -->
+      <div class="banner-controls">
+        <label class="banner-checkbox-container">
+          <input type="checkbox" class="banner-checkbox" id="yam-dismiss-forever">
+          <span class="banner-checkbox-label">Don't show again</span>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <!-- LAYER 2: Homepage Content -->
+
+  <!-- Promo Bar -->
+  <div class="promo" id="promoBar">
+    <div class="container inner">
+      <div>🍽️ 15 Meals for <strong>$99</strong> <small>— Includes Breakfast, Lunch & Dinner</small> <span>· Add 10 Snacks for <strong>$25</strong></span></div>
+      <button type="button" class="promo-close" aria-label="Close promotion">✕</button>
+    </div>
+  </div>
+
+  <!-- Site Header Navigation -->
+  <header class="site-header has-promo">
+    <div class="container nav-bar">
+      <a class="brand" href="index.html">
+        <div class="logo-mark" aria-hidden="true"></div>
+        <div class="brand-text"><b>Next To Eat</b><span>Wholistic Culinary Market · New Orleans</span></div>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="yam.html">Y.A.M.</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="community.html">Community</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-ghost" href="https://www.nexttoeat.com/meal-solutions" target="_blank" rel="noopener">Visit Market</a>
+        <a class="btn btn-primary" href="https://www.nexttoeat.com/meal-solutions" target="_blank" rel="noopener">Order Meals</a>
+        <button class="hamburger" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="mobile-nav">
+    <div class="mobile-nav-panel">
+      <button class="mobile-nav-close" aria-label="Close menu">✕</button>
+      <ul class="mobile-nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="yam.html">Y.A.M.</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="mobile-nav-cta">
+        <a class="btn btn-primary btn-full" href="https://www.nexttoeat.com/meal-solutions" target="_blank" rel="noopener">Order Meals</a>
+        <a class="btn btn-ghost btn-full" href="https://www.nexttoeat.com/meal-solutions" target="_blank" rel="noopener">Visit Market</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main id="main">
+
+    <!-- 1. HERO SECTION -->
+    <section class="section-white">
+      <div class="container">
+        <div class="two-col">
+          <div>
+            <h1 class="section-title">Real Food. Real Nourishment. Real New Orleans.</h1>
+            <p class="section-content">
+              Next To Eat is a wholistic culinary market that brings chef-crafted, organic-first meal solutions directly to your home. Created by Chef Gary Johnson, a New Orleans native with over 20 years of culinary excellence, we believe good food is the foundation of good health.
+            </p>
+            <div class="chip-row">
+              <span class="chip"><span class="chip-dot"></span>Organic-first</span>
+              <span class="chip"><span class="chip-dot"></span>Gluten-free support</span>
+              <span class="chip"><span class="chip-dot"></span>Pickup + delivery</span>
+              <span class="chip"><span class="chip-dot"></span>Community-centered</span>
+            </div>
+            <div style="margin-top: 32px; display: flex; gap: 12px; flex-wrap: wrap;">
+              <a href="https://www.nexttoeat.com/meal-solutions" target="_blank" rel="noopener" class="btn btn-primary">Order Meals</a>
+              <a href="https://www.nexttoeat.com/meal-solutions" target="_blank" rel="noopener" class="btn btn-accent">Visit the Market</a>
+              <a href="about.html" class="btn btn-ghost">Meet Chef Gary</a>
+            </div>
+
+            <!-- Mini Proof Grid -->
+            <div class="three-col" style="margin-top: 40px;">
+              <div class="card panel">
+                <h3 style="font-weight: 800; color: var(--primary); margin-bottom: 8px; font-size: 0.95rem;">Simple Ordering</h3>
+                <p style="font-size: 0.9rem; color: var(--muted); line-height: 1.6;">Choose your meal plan, share your dietary needs, and receive fresh meals at your door.</p>
+              </div>
+              <div class="card panel">
+                <h3 style="font-weight: 800; color: var(--primary); margin-bottom: 8px; font-size: 0.95rem;">Real Nourishment</h3>
+                <p style="font-size: 0.9rem; color: var(--muted); line-height: 1.6;">Organic-first ingredients prepared by experienced chefs who care about your health.</p>
+              </div>
+              <div class="card panel">
+                <h3 style="font-weight: 800; color: var(--primary); margin-bottom: 8px; font-size: 0.95rem;">Rooted in New Orleans</h3>
+                <p style="font-size: 0.9rem; color: var(--muted); line-height: 1.6;">Supporting local community partners and honoring the culinary traditions of our city.</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="img-placeholder tall">Fresh Food Photo</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. HOW IT WORKS SECTION -->
+    <section class="section-light">
+      <div class="container">
+        <div class="section-label">Getting Started</div>
+        <h2 class="section-title">How It Works</h2>
+        <p class="section-content" style="margin-bottom: 32px;">Ordering your meals is simple and straightforward. Follow these three easy steps.</p>
+
+        <div class="three-col">
+          <div class="step">
+            <div class="step-num">1</div>
+            <h3 style="font-weight: 800; color: var(--primary); margin-bottom: 12px;">Choose Your Plan</h3>
+            <p style="color: var(--muted); line-height: 1.7;">Select from 15-meal plans or build your own custom order. All plans include breakfast, lunch, and dinner with optional snacks.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <h3 style="font-weight: 800; color: var(--primary); margin-bottom: 12px;">Share Your Needs</h3>
+            <p style="color: var(--muted); line-height: 1.7;">Tell us about dietary preferences, allergies, and health goals. We customize every meal to match your lifestyle.</p>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <h3 style="font-weight: 800; color: var(--primary); margin-bottom: 12px;">Pick Up or Delivery</h3>
+            <p style="color: var(--muted); line-height: 1.7;">Collect fresh meals from our Simon Bolivar location or have them delivered to your home. Quick, convenient, and reliable.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. THIS WEEK'S MENU PREVIEW -->
+    <section class="section-white">
+      <div class="container">
+        <div class="section-label">Daily Specials</div>
+        <h2 class="section-title">This Week's Menu Preview</h2>
+        <p class="section-content" style="margin-bottom: 32px;">Experience the flavors of New Orleans crafted with organic-first ingredients and culinary expertise.</p>
+
+        <div class="three-col">
+          <div class="card panel">
+            <h3 style="font-weight: 800; color: var(--accent); margin-bottom: 12px; font-size: 1rem;">Breakfast</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.95rem; color: var(--muted); line-height: 1.8;">
+              <li>Spiced Cornbread Crepes with Pecan Praline</li>
+              <li>Creole Egg Scramble with Local Vegetables</li>
+              <li>Steel-Cut Oats with Seasonal Berries</li>
+            </ul>
+          </div>
+          <div class="card panel">
+            <h3 style="font-weight: 800; color: var(--accent); margin-bottom: 12px; font-size: 1rem;">Lunch</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.95rem; color: var(--muted); line-height: 1.8;">
+              <li>Gumbo with Local Okra & Andouille</li>
+              <li>Pan-Seared Salmon with Creole Seasoning</li>
+              <li>Vegetable Medley with Herb Rice</li>
+            </ul>
+          </div>
+          <div class="card panel">
+            <h3 style="font-weight: 800; color: var(--accent); margin-bottom: 12px; font-size: 1rem;">Dinner</h3>
+            <ul style="list-style: none; padding: 0; margin: 0; font-size: 0.95rem; color: var(--muted); line-height: 1.8;">
+              <li>Braised Short Ribs with Root Vegetables</li>
+              <li>Herb-Roasted Chicken with Local Greens</li>
+              <li>Shrimp Étouffée with Quinoa Blend</li>
+            </ul>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 32px;">
+          <a href="menu.html" class="btn btn-primary">View Full Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. CHEF GARY QUICK BIO -->
+    <section class="section-white">
+      <div class="container">
+        <div class="two-col">
+          <div>
+            <div class="section-label">Our Founder</div>
+            <h2 class="section-title">Chef Gary Johnson</h2>
+            <ul class="check-list">
+              <li>
+                <div class="check-icon"></div>
+                <div>
+                  <b>New Orleans Native</b>
+                  <p style="margin: 4px 0 0; color: var(--muted); font-size: 0.9rem;">Born and raised in Central City, with deep roots in our community.</p>
+                </div>
+              </li>
+              <li>
+                <div class="check-icon"></div>
+                <div>
+                  <b>20+ Years of Culinary Excellence</b>
+                  <p style="margin: 4px 0 0; color: var(--muted); font-size: 0.9rem;">Executive Chef at Commander's Palace and Emeril's New Orleans.</p>
+                </div>
+              </li>
+              <li>
+                <div class="check-icon"></div>
+                <div>
+                  <b>NOCCA Classical Musician</b>
+                  <p style="margin: 4px 0 0; color: var(--muted); font-size: 0.9rem;">Trained at the New Orleans Center for Creative Arts, blending music and food.</p>
+                </div>
+              </li>
+              <li>
+                <div class="check-icon"></div>
+                <div>
+                  <b>Culinary Ambassador</b>
+                  <p style="margin: 4px 0 0; color: var(--muted); font-size: 0.9rem;">Recognized for dedication to food justice and community nourishment.</p>
+                </div>
+              </li>
+              <li>
+                <div class="check-icon"></div>
+                <div>
+                  <b>Calvin Johnson Food Justice Award Winner</b>
+                  <p style="margin: 4px 0 0; color: var(--muted); font-size: 0.9rem;">Honored for impact in creating equitable access to quality nutrition.</p>
+                </div>
+              </li>
+            </ul>
+            <div style="margin-top: 24px;">
+              <a href="about.html" class="btn btn-primary">Learn More About Chef Gary</a>
+            </div>
+          </div>
+          <div>
+            <div class="quote-block">
+              <p style="margin: 0; font-size: 1.05rem; line-height: 1.7;">
+                "Good food is medicine. It heals the body, nourishes the soul, and builds community. That's what we're doing at Next To Eat — bringing that medicine home to New Orleans."
+              </p>
+              <p style="margin: 16px 0 0; font-style: normal; color: var(--primary); font-weight: 700; font-size: 0.95rem;">— Chef Gary Johnson</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Y.A.M. SPOTLIGHT -->
+    <section class="section-dark">
+      <div class="container">
+        <div class="section-label">Youth Empowerment</div>
+        <h2 class="section-title">Meet Y.A.M. — <span class="title-accent">Young Adult Market</span></h2>
+        <p class="section-content" style="margin-bottom: 32px;">
+          Y.A.M. is Chef Gary's vision for the next generation. This initiative creates real opportunities for young adults in New Orleans to develop culinary skills, launch careers, and build wealth within our community.
+        </p>
+
+        <div style="background: rgba(200,106,43,0.08); border: 1px solid rgba(200,106,43,0.2); border-radius: 16px; padding: 32px; margin-bottom: 32px;">
+          <p style="font-size: 1.15rem; line-height: 1.8; color: var(--cream); font-style: italic; margin: 0;">
+            "GOD put it in my heart to create Y.A.M. because I'm trying to be the person I was looking for when I was younger."
+          </p>
+          <p style="margin: 16px 0 0; color: var(--gold); font-weight: 700;">— Chef Gary Johnson, Founder</p>
+        </div>
+
+        <div style="text-align: center;">
+          <a href="yam.html" class="btn btn-accent">Explore Y.A.M. Program</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. PARTNERS & COMMUNITY PREVIEW -->
+    <section class="section-white">
+      <div class="container">
+        <div class="section-label">Community Partners</div>
+        <h2 class="section-title">Partners & Community</h2>
+        <p class="section-content" style="margin-bottom: 32px;">We're proud to work with organizations that share our commitment to health, equity, and community nourishment.</p>
+
+        <div class="three-col" style="margin-bottom: 40px;">
+          <div class="card panel">
+            <h3 style="font-weight: 800; color: var(--primary); margin-bottom: 8px; font-size: 0.95rem;">Health & Wellness</h3>
+            <p style="font-size: 0.9rem; color: var(--muted); line-height: 1.6;">Partnering with American Diabetes Association, Alzheimer's Foundation, and DaVita to support health outcomes.</p>
+          </div>
+          <div class="card panel">
+            <h3 style="font-weight: 800; color: var(--primary); margin-bottom: 8px; font-size: 0.95rem;">Youth Development</h3>
+            <p style="font-size: 0.9rem; color: var(--muted); line-height: 1.6;">Working with YEP, The NET, and Chef's Brigade to empower young people in culinary careers.</p>
+          </div>
+          <div class="card panel">
+            <h3 style="font-weight: 800; color: var(--primary); margin-bottom: 8px; font-size: 0.95rem;">Community Support</h3>
+            <p style="font-size: 0.9rem; color: var(--muted); line-height: 1.6;">Supporting NOCCHI, Salvation Army, and community-based organizations serving New Orleans.</p>
+          </div>
+        </div>
+
+        <div style="background: var(--panel-soft); border: 1px solid var(--line); border-radius: 14px; padding: 24px;">
+          <p style="font-size: 0.85rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; margin: 0 0 12px; font-weight: 700;">Our Partners Include</p>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 16px;">
+            <div class="img-placeholder short" style="min-height: 80px; font-size: 0.75rem;">American Diabetes Association</div>
+            <div class="img-placeholder short" style="min-height: 80px; font-size: 0.75rem;">Alzheimer's Foundation</div>
+            <div class="img-placeholder short" style="min-height: 80px; font-size: 0.75rem;">NOCCHI</div>
+            <div class="img-placeholder short" style="min-height: 80px; font-size: 0.75rem;">YEP</div>
+            <div class="img-placeholder short" style="min-height: 80px; font-size: 0.75rem;">The NET</div>
+            <div class="img-placeholder short" style="min-height: 80px; font-size: 0.75rem;">Chef's Brigade</div>
+            <div class="img-placeholder short" style="min-height: 80px; font-size: 0.75rem;">DaVita</div>
+            <div class="img-placeholder short" style="min-height: 80px; font-size: 0.75rem;">Salvation Army</div>
+            <div class="img-placeholder short" style="min-height: 80px; font-size: 0.75rem;">Ford Foundation</div>
+            <div class="img-placeholder short" style="min-height: 80px; font-size: 0.75rem;">Essence Magazine</div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 32px;">
+          <a href="community.html" class="btn btn-primary">Learn More About Our Partners</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. FAQ SECTION -->
+    <section class="section-light">
+      <div class="container">
+        <div class="section-label">Questions</div>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-content" style="margin-bottom: 32px;">Find answers to common questions about our meal plans, ordering, and delivery options.</p>
+
+        <div style="max-width: 720px;">
+          <details class="faq-item">
+            <summary>How do I place an order?</summary>
+            <p>Visit our website at nexttoeat.com, select your meal plan, customize your dietary preferences, and proceed to checkout. You can choose between pickup at our Simon Bolivar location or delivery to your home.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Do you offer gluten-free meals?</summary>
+            <p>Yes! We're committed to supporting gluten-free diets. All our meals are available in gluten-free versions, and we take cross-contamination seriously. Let us know your needs at checkout, and our kitchen will prepare your meals accordingly.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Can I view the full menu before ordering?</summary>
+            <p>Absolutely. Visit our menu page to browse all available meals by category. You can filter by dietary needs, ingredients, and nutritional information. Our menu is updated weekly with seasonal ingredients.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>Where is your location and when are you open?</summary>
+            <p>We're located at 2132 Simon Bolivar Avenue in the Central City neighborhood of New Orleans. We're open Monday through Saturday, 9am to 7pm. Delivery service is available daily.</p>
+          </details>
+
+          <details class="faq-item">
+            <summary>What makes your ingredients organic-first?</summary>
+            <p>We prioritize USDA-certified organic ingredients whenever possible. When organic versions aren't available, we source from local, sustainable suppliers we trust. Transparency about our sourcing is important to us.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. CONTACT & MAILING LIST -->
+    <section class="section-white">
+      <div class="container">
+        <div class="two-col">
+          <div>
+            <div class="section-label">Get In Touch</div>
+            <h2 class="section-title">Contact Us</h2>
+            <div style="margin-top: 24px;">
+              <div style="margin-bottom: 28px;">
+                <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); font-weight: 700; margin: 0 0 8px;">Phone</p>
+                <a href="tel:504-296-5935" style="font-size: 1.1rem; font-weight: 700; color: var(--primary); text-decoration: none;">504-296-5935</a>
+              </div>
+              <div style="margin-bottom: 28px;">
+                <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); font-weight: 700; margin: 0 0 8px;">Email</p>
+                <a href="mailto:wcmarket@nexttoeat.com" style="font-size: 1.1rem; font-weight: 700; color: var(--primary); text-decoration: none;">wcmarket@nexttoeat.com</a>
+              </div>
+              <div>
+                <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); font-weight: 700; margin: 0 0 8px;">Location</p>
+                <p style="font-size: 1rem; color: var(--text); line-height: 1.6; margin: 0;">
+                  Next To Eat Wholistic Culinary Market<br>
+                  2132 Simon Bolivar Ave<br>
+                  New Orleans, LA 70113
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="section-label">Stay Updated</div>
+            <h2 class="section-title">Join Our Mailing List</h2>
+            <p style="color: var(--muted); line-height: 1.7; margin-bottom: 20px;">Get the latest menus, special offers, and community updates delivered to your inbox.</p>
+
+            <form style="display: flex; flex-direction: column; gap: 14px;">
+              <div>
+                <label for="email-first-name" style="display: block; font-weight: 700; color: var(--primary); margin-bottom: 6px; font-size: 0.9rem;">First Name</label>
+                <input type="text" id="email-first-name" placeholder="Your name" class="field" required>
+              </div>
+              <div>
+                <label for="email-address" style="display: block; font-weight: 700; color: var(--primary); margin-bottom: 6px; font-size: 0.9rem;">Email Address</label>
+                <input type="email" id="email-address" placeholder="your@email.com" class="field" required>
+              </div>
+              <div>
+                <label for="email-phone" style="display: block; font-weight: 700; color: var(--primary); margin-bottom: 6px; font-size: 0.9rem;">Phone (Optional)</label>
+                <input type="tel" id="email-phone" placeholder="504-555-0000" class="field">
+              </div>
+              <!-- Form action would go here -->
+              <!-- <input type="hidden" name="form_action" value="subscribe"> -->
+              <button type="submit" class="btn btn-primary" style="margin-top: 8px;">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div style="display: flex; gap: 12px; margin-bottom: 20px;">
+            <div class="logo-mark" style="width: 48px; height: 48px;"></div>
+            <div>
+              <p style="font-weight: 800; color: var(--primary); margin: 0; font-size: 1.05rem;">Next To Eat</p>
+              <p style="font-size: 0.85rem; color: var(--muted); margin: 2px 0 0;">Wholistic Culinary Market</p>
+            </div>
+          </div>
+          <p class="footer-fine">Real food, real nourishment, real New Orleans. Bringing chef-crafted, organic-first meal solutions to your table.</p>
+        </div>
+        <div>
+          <div style="margin-bottom: 24px;">
+            <p style="font-weight: 700; color: var(--primary); margin: 0 0 10px; font-size: 0.95rem;">Quick Links</p>
+            <div class="footer-links">
+              <a href="index.html" style="color: var(--primary); font-weight: 700; font-size: 0.85rem;">Home</a>
+              <a href="menu.html" style="color: var(--primary); font-weight: 700; font-size: 0.85rem;">Menu</a>
+              <a href="yam.html" style="color: var(--primary); font-weight: 700; font-size: 0.85rem;">Y.A.M.</a>
+              <a href="about.html" style="color: var(--primary); font-weight: 700; font-size: 0.85rem;">About</a>
+              <a href="community.html" style="color: var(--primary); font-weight: 700; font-size: 0.85rem;">Community</a>
+              <a href="contact.html" style="color: var(--primary); font-weight: 700; font-size: 0.85rem;">Contact</a>
+            </div>
+          </div>
+          <div>
+            <p style="font-weight: 700; color: var(--primary); margin: 0 0 10px; font-size: 0.95rem;">Follow Us</p>
+            <div class="footer-social">
+              <a href="https://instagram.com/nexttoeat" target="_blank" rel="noopener">Instagram</a>
+              <a href="https://facebook.com/nexttoeat" target="_blank" rel="noopener">Facebook</a>
+              <a href="https://tiktok.com/@nexttoeat" target="_blank" rel="noopener">TikTok</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid var(--line); text-align: center;">
+        <p class="footer-fine" style="margin: 0;">© <span id="footer-year">2026</span> Next To Eat. All rights reserved. Made with love in New Orleans.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="./js/banner.js"></script>
+  <script src="./js/site.js"></script>
+</body>
+</html>
